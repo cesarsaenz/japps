@@ -4,11 +4,21 @@
       "title": "Tutorial",
       "data":{
         "girls":[
-          {"name": "Hot", "image": "", "status": "hot today" },
-          {"name": "Kiss", "image": "", "status": "kiss me" },
-          {"name": "Butt", "image": "", "status": "nice butt" }
+          {"name": "Hot", "image": "https://thechive.files.wordpress.com/2016/10/screen-shot-2016-10-13-at-3-24-02-pm.png", "status": "hot today" },
+          {"name": "Kiss", "image": "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/14582433_164875727303371_9065619129318244352_n.jpg", "status": "kiss me" },
+          {"name": "Butt", "image": "https://thechive.files.wordpress.com/2016/10/f2dedc57ee74266511d3b4d3e6975f0c_width-600.jpeg", "status": "nice butt" }
         ]
       },
+      
+      "templates": {
+      
+        "body": {
+          "header": {
+            
+          }
+        }
+        
+      }
       
       "actions": {
         "$pull": {
@@ -21,6 +31,7 @@
     "body": {
       "header": {
         "style": {
+          "color": "#ffffff",
           "background": "#000000"
         }
       },

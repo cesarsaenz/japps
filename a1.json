@@ -53,59 +53,7 @@
         }
       }
   
-    },
-
-    "body": {
-      "header": {
-        "style": {
-          "color": "#ffffff",
-          "background": "#000000"
-        }
-      },
-      "sections": [{
-        "items": [
-          {"type":"horizontal",
-            "components":[
-              {"type":"image","url":"https://thechive.files.wordpress.com/2016/10/screen-shot-2016-10-13-at-3-24-02-pm.png?w=1304&h=1624","style":{"width":"50","height":"50","corner_radius":"25"}},
-              {"type": "vertical",
-               "style": {"spacing": "5"},
-               "components": [
-                  {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":2}},
-                  {"type": "label", "text":"The best weed doctor", "style": {"font":"HelveticaNeue-Bold", "color":"#cecece", "size":10}},
-                  {"type": "image", "url":"https://thechive.files.wordpress.com/2016/10/screen-shot-2016-10-13-at-3-24-02-pm.png?w=1304&h=1624", "style":{"width":"50%"}}
-               ]            
-            }               
-           ]
-          },
-          {"type":"horizontal",
-            "components":[
-              {"type":"image","url":"https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/14582433_164875727303371_9065619129318244352_n.jpg","style":{"width":"50","height":"50","corner_radius":"25"}},
-              {"type": "vertical",
-               "style": {"spacing": "5"},
-               "components": [
-                  {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":15}},
-                  {"type": "label", "text":"The best weed doctor", "style": {"font":"HelveticaNeue-Bold", "color":"#cecece", "size":10}},
-                  {"type": "image", "url":"https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/14582433_164875727303371_9065619129318244352_n.jpg", "style":{"width":"50%"}}
-               ]            
-            }               
-           ]
-          },
-          {"type":"horizontal",
-            "components":[
-              {"type":"image","url":"https://thechive.files.wordpress.com/2016/10/f2dedc57ee74266511d3b4d3e6975f0c_width-600.jpeg?quality=85&strip=info&w=1304","style":{"width":"50","height":"50","corner_radius":"25"}},
-              {"type": "vertical",
-               "style": {"spacing": "5"},
-               "components": [
-                  {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":15}},
-                  {"type": "label", "text":"The best weed doctor", "style": {"font":"HelveticaNeue-Bold", "color":"#cecece", "size":10}},
-                  {"type": "image", "url":"https://thechive.files.wordpress.com/2016/10/f2dedc57ee74266511d3b4d3e6975f0c_width-600.jpeg?quality=85&strip=info&w=1304", "style":{"width":"50%"}}
-               ]            
-            }               
-           ]
-          }          
-        ]
-      }]
     }
-    
+
   }
 }

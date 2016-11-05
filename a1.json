@@ -25,15 +25,7 @@
                 "type": "horizontal",
                 "style": {"spacing": "10"},
                 "components":[
-                    {"type": "image", "url": "{{image}}","style":{"width": "50", "height": "50", "corner_radius": "25"}},
-                    {"type": "vertical",
-                     "style": {"spacing": "5"},
-                     "components": [
-                        {"type": "label", "text": "{{name}}", "style": {"font": "HelveticaNeue-Bold", "size": 2}},
-                        {"type": "label", "text": "{{status}}", "style": {"font": "HelveticaNeue-Bold", "color": "#cecece", "size": 10}},
-                        {"type": "image", "url": "{{image}}", "style": {"width": "50%"}}
-                     ]            
-                  }               
+                    {"type": "image", "url": "{{image}}", "style": {"width": "50", "height": "50", "corner_radius": "25"}}               
                 ]
                           
                 

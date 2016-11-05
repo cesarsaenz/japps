@@ -4,6 +4,9 @@
       "title": "Tutorial",
       "data":{
         "girls":[
+          {"name": "Hot", "image": "", "status": "hot today" },
+          {"name": "Kiss", "image": "", "status": "kiss me" },
+          {"name": "Butt", "image": "", "status": "nice butt" }
         ]
       },
       
@@ -29,7 +32,7 @@
               {"type": "vertical",
                "style": {"spacing": "5"},
                "components": [
-                  {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":25}},
+                  {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":2}},
                   {"type": "label", "text":"The best weed doctor", "style": {"font":"HelveticaNeue-Bold", "color":"#cecece", "size":10}},
                   {"type": "image", "url":"https://thechive.files.wordpress.com/2016/10/screen-shot-2016-10-13-at-3-24-02-pm.png?w=1304&h=1624", "style":{"width":"50%"}}
                ]            
@@ -65,5 +68,6 @@
         ]
       }]
     }
+    
   }
 }

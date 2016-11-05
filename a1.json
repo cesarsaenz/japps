@@ -10,6 +10,7 @@
             "url": "https://raw.githubusercontent.com/cesarsaenz/japps/master/cutie.json"
           },
           "success": {
+            "type": "$render"
           }
         }  
       },
@@ -44,7 +45,7 @@
           },
           "sections": [{
             "items": {
-              "{{#each girls}}": {                
+              "{{#each $jason.girls}}": {                
                 "type": "horizontal",
                 "style": {"spacing": "10"},
                 "action": {

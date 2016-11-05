@@ -2,12 +2,19 @@
   "$jason": {
     "head": {
       "title": "Tutorial",
+      "data":{
+        "girls":[
+        ]
+      },
+      
       "actions": {
         "$pull": {
           "type": "$reload"
         }
       }
+  
     },
+
     "body": {
       "header": {
         "style": {

@@ -21,7 +21,11 @@
             }
           },
           "sections": [{
-            
+            "items": {
+              "{{#each girls}}": {
+                {"type": "image", "url": "{{image}}", "style": {"width":"100%"}}
+              }
+            }
           }]
         }
         

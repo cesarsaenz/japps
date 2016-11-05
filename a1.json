@@ -1,0 +1,31 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Tutorial",
+      "actions": {
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "style": {
+          "background": "#ffffff"
+        }
+      },
+      "sections": [{
+        "items": [
+          
+          {"type": "vertical",
+           "style": {"spacing": "5"},
+           "components": [
+             {"type": "label", "text":"Dr. Emch", "style": {"font":"HelveticaNeue-Bold", "size":15}},
+             {"type": "label", "text":"The best weed doctor", "style": {"font":"HelveticaNeue-Bold", "color":"#cecece", "size":10}}
+           ]            
+          }                  
+        ]
+      }]
+    }
+  }
+}

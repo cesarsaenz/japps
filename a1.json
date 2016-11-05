@@ -2,6 +2,18 @@
   "$jason": {
     "head": {
       "title": "Tutorial",
+      
+      "actions": {
+        "$load": {
+          "type": "$network.request",
+          "options": {
+            "url": "https://raw.githubusercontent.com/cesarsaenz/japps/master/cutie.json"
+          },
+          "success": {
+          }
+        }  
+      },
+      
       "data":{
         "girls":[
           {"name": "Hot", "image": "https://thechive.files.wordpress.com/2016/10/screen-shot-2016-10-13-at-3-24-02-pm.png", "status": "hot today" },

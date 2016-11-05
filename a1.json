@@ -25,11 +25,18 @@
                 "type": "horizontal",
                 "style": {"spacing": "10"},
                 "action": {
-                  "type": "$util.banner",
+                  "type": "$util.alert",
                   "options": {
-                    "title": "{{status}}",
-                    "description": "{{name}} said yummi!"
-                  }
+                    "title": "Like?",
+                    "description": "Tab OK if you like {{name}}"
+                  },
+                  "success": {
+                    "type": "$util.banner",
+                    "options": {
+                      "title": "{{status}}",
+                      "description": "{{name}} said yummi!"
+                    }                    
+                  }                 
                 },
                 "components":[
                     {"type": "image", "url": "{{image}}", "style": {"width": "50", "height": "50", "corner_radius": "25"}},

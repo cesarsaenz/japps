@@ -15,7 +15,7 @@
           },
           "sections": [{
             "items": {
-              "{{#each girls}}": {                
+              "{{#each $jason.girls}}": {                
                 "type": "horizontal",
                 "style": {"spacing": "10"},
                 "action": {

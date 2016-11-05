@@ -24,6 +24,13 @@
               "{{#each girls}}": {                
                 "type": "horizontal",
                 "style": {"spacing": "10"},
+                "action": {
+                  "type": "$util.banner",
+                  "options": {
+                    "title": "{{status}}",
+                    "description": "{{name}} said yummi!"
+                  }
+                },
                 "components":[
                     {"type": "image", "url": "{{image}}", "style": {"width": "50", "height": "50", "corner_radius": "25"}},
                     {"type": "vertical",

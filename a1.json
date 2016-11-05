@@ -14,7 +14,6 @@
       
         "body": {
           "header": {
-            "title": "Yo!",
             "style": {
               "color": "#ffffff",
               "background": "#000000"

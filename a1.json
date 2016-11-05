@@ -25,12 +25,14 @@
                 "type": "horizontal",
                 "style": {"spacing": "10"},
                 "components":[
-                    {"type": "image", "url": "{{image}}", "style": {"width": "50", "height": "50", "corner_radius": "25"}}               
-                ]
-                          
-                
-                
-                
+                    {"type": "image", "url": "{{image}}", "style": {"width": "50", "height": "50", "corner_radius": "25"}},
+                    {"type": "vertical",
+                     "style": {"spacing": "5"},
+                     "components": [
+                     
+                     ]
+                    }                  
+                ]                
               }
             }
           }]

@@ -29,8 +29,9 @@
                     {"type": "vertical",
                      "style": {"spacing": "5"},
                      "components": [
-                       {"type": "label", "text": "{{name}}"},
-                       {"type": "label", "text": "{{status}}"}
+                       {"type": "label", "text": "{{name}}", "style": {"font": "HelveticaNeue-Bold", "size": "15"}},
+                       {"type": "label", "text": "{{status}}", "style": {"font": "HelveticaNeue-Bold", "color": "#cecece", "size": "10"}},
+                       {"type": "image", "url": "{{image}}", "style": {"width": "100%"}}
                      ]
                     }                  
                 ]                

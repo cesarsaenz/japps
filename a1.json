@@ -29,15 +29,15 @@
                     {"type": "vertical",
                      "style": {"spacing": "5"},
                      "components": [
-                       {"type": "label", "text": "foo"}
+                       {"type": "label", "text": "{{name}}"},
+                       {"type": "label", "text": "{{status}}"}
                      ]
                     }                  
                 ]                
               }
             }
           }]
-        }
-        
+        }        
       },
       
       "actions": {
